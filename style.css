@@ -1,0 +1,473 @@
+/* global section  */
+*{
+    border: 0%;
+    padding: 0%;
+    margin: 0%;
+    outline: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.global-heading{
+    font-family: 'Oswald', sans-serif;
+}
+.small-heading{
+    font-family: 'Montserrat', sans-serif;
+}
+.display-heading{
+    font-family: 'Nunito', sans-serif;
+}
+
+          /* header part  */
+header{
+    width: 100%;
+    float: left;
+    background-image: url(/header-background.png);
+}
+nav{
+    width: 100%;
+    float: left;
+}
+.logo-part{
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+}
+.menu-icon-part{
+    width: 30%;
+    float: left;
+    text-align: end;
+    margin-top: 35px;
+}
+.menu-icon-part li{
+    display: inline-block;
+}
+.menu-part{
+    width: 30%;
+    float: left;
+    padding: 10px 0px;
+    text-align: center;
+}    
+.menu-part li{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 7px;
+    border-radius: 5px;
+    
+}
+.menu-part a{
+    font-size: 17px;
+    color: #c8c8c8;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+         /* title section  */
+#title{
+    width: 100%;
+    float: left;
+    background-image: url(/background\ 1.png);
+}
+.title-writing-part{
+    width: 30%;
+    margin-top: 300px;
+}
+.title-writing-part h1{
+    font-size: 90px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: white;
+    
+}
+.title-writing-part p{
+    text-align: left;
+    color: white;
+    font-weight: 400;
+    font-size: 17px;
+}
+.title-writing-part a button{
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px;
+    text-transform: capitalize;
+    background-color: #e8631c;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+
+            /* tour section  */
+#tour{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url(/bacground-2.png);
+    color: white;
+}
+.tour-writing-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.tour-writing-part h1{
+    font-size: 60px; 
+    font-weight: 700;
+}
+.tour-writing-part p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 30px 250px;
+}
+.tour-box-part{
+    width: 33%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.tour-box-part img{
+    width: 80%;
+}
+
+/* price section  */
+#price{
+    width: 100%;
+    float: left;
+    background-image: url(/background-4.png);
+    color: white;
+    text-align: center;
+}
+.price-writing-part{
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+.price-writing-part h1{
+    font-size: 60px;
+    font-weight: 700;
+}
+.price-writing-part p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 40px 250px;
+}
+.price-box-part{
+    width: 30%;
+    float: left;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-image: url(/mini-background.png);
+    border-radius: 10px;
+}
+.price-box-part img{
+    width: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.price-box-part h1{
+    font-weight: 600;
+}
+.price-box-part p{
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 17px;
+}
+.price-box-part a button{
+    width: 70%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #303030;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+/* demo section  */
+#demo{
+    width: 100%;
+    float: left;
+    background-image: url(/background-7.png);
+    color: white;
+}
+#demo-2{
+    width: 100%;
+    float: left;
+    background-image: url(/background-7.png);
+    color: white;
+}
+.demo-img-part{
+    width: 50%;
+    float: left;
+}
+.demo-img-part-2{
+    width: 50%;
+    float: right;
+}
+.demo-img-part img{
+    width: 100%;
+    height: 90%;
+}
+.demo-img-part-2 img{
+    width: 100%;
+    height: 90%;
+}
+.demo-writing-part{
+    width: 40%;
+    float: left;
+    margin-top: 300px;
+    margin-left: 70px;
+}
+.demo-writing-part-2{
+    width: 40%;
+    float: left;
+    margin-top: 300px;
+    margin-left: 60px;
+}
+
+.demo-writing-part a button{
+    width: 35%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #303030;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.demo-writing-part-2 a button{
+    width: 35%;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #303030;
+    color: white;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 17px;
+    font-weight: 400;
+}
+.demo-writing-part h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.demo-writing-part-2 h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.demo-writing-part p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.demo-writing-part-2 p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* activity section  */
+#activity{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background-image: url(/background-5.png);
+    color: white;
+}
+.activity-writing-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.activity-writing-part h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.activity-writing-part p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 30px 250px;
+}
+.activity-box-part{
+    width: 33%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+/* display section  */
+#display{
+    width: 100%;
+    float: left;
+    background-image: url(/background-3.png);
+    color: white;
+    text-align: center;
+}
+.display-writing-part{
+    width: 100%;
+    float: left;
+    margin-top: 350px;
+}
+.display-writing-part p{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0px 250px;
+}
+.display-writing-part h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
+/* subscribe section  */
+#subscribe{
+    width: 100%;
+    float: left;
+    background-image: url(/background-6.png);
+    color: white;
+    text-align: center;
+}
+.subscribe-writing-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+.subscribe-writing-part h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.subscribe-writing-part p{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 20px 250px;
+}
+.subscribe-form-part{
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.subscribe-form-part input{
+    padding: 8px;
+}
+#mail{
+    width: 30%;
+    border-style: none;
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: 15px;
+    border-style: none;
+}
+#sbmt{
+    width: 13%;
+    background-color: #303030;
+    color: white;
+    border-style: none;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+/* footer section  */
+footer{
+    width: 100%;
+    float: left;
+    background-image: url(/header-background.png);
+    color: white;
+}
+.footer-writing-part{
+    width: 55%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-writing-part i{
+    padding: 8px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+.footer-writing-part h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-writing-part p{
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 350px;
+}
+.footer-writing-part-2{
+    width: 15%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-writing-part-2 h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-menu-part{
+    margin-top: 20px;
+}
+.footer-menu-part li{
+    display: inline-block;
+}
+.footer-menu-part li a{
+    color: white;
+    text-transform: capitalize;        
+}
+.footer-writing-part-3{
+    width: 15%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-writing-part-3 h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-menu-part-2{
+    margin-top: 20px;
+}
+.footer-menu-part-2 li{
+    display: inline-block;
+}
+.footer-menu-part-2 li a{
+    color: white;
+    text-transform: capitalize;
+}
+.footer-writing-part-4{
+    width: 10%;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-writing-part-4 h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.footer-menu-part-3{
+    margin-top: 20px;
+}
+.footer-menu-part-3 li{
+    display: inline-block;
+}
+.footer-menu-part-3 li a{
+    color: white;
+    text-transform: capitalize;
+}
